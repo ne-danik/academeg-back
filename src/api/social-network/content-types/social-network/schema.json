@@ -42,6 +42,9 @@
     },
     "youtube_suprotec": {
       "type": "string"
+    },
+    "yandex_zen": {
+      "type": "string"
     }
   }
 }
