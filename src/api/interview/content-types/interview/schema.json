@@ -56,19 +56,6 @@
         }
       },
       "type": "string"
-    },
-    "preview": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
     }
   }
 }

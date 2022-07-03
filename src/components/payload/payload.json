@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_payload_payloads",
+  "info": {
+    "displayName": "Payload",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "curb_weight": {
+      "type": "float"
+    },
+    "full_mass": {
+      "type": "float"
+    },
+    "fuel_tank": {
+      "type": "float"
+    }
+  }
+}

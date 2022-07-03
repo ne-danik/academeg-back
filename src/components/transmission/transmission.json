@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_transmission_transmissions",
+  "info": {
+    "displayName": "Transmission",
+    "icon": "cogs"
+  },
+  "options": {},
+  "attributes": {
+    "transmission": {
+      "type": "string"
+    },
+    "drive": {
+      "type": "string"
+    },
+    "gears": {
+      "type": "integer"
+    }
+  }
+}

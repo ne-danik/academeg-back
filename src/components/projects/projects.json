@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_projects_projects",
+  "info": {
+    "displayName": "projects",
+    "icon": "truck-monster"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "youtube_playlist_id": {
+      "type": "text"
+    },
+    "background": {
+      "type": "string"
+    },
+    "gallery": {
+      "type": "text"
+    }
+  }
+}

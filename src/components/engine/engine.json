@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_engine_engines",
+  "info": {
+    "displayName": "Engine",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "engine_type": {
+      "type": "string"
+    },
+    "max_power_rpm": {
+      "type": "float"
+    },
+    "max_power_hp": {
+      "type": "float"
+    },
+    "max_torque_nm": {
+      "type": "float"
+    },
+    "max_torque_rpm": {
+      "type": "float"
+    }
+  }
+}

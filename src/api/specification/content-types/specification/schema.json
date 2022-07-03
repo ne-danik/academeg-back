@@ -1,0 +1,83 @@
+{
+  "kind": "collectionType",
+  "collectionName": "specifications",
+  "info": {
+    "singularName": "specification",
+    "pluralName": "specifications",
+    "displayName": "Specifications"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "project": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::project.project",
+      "inversedBy": "specification"
+    },
+    "Efficiency": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "efficiency.efficiency"
+    },
+    "Engine": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "engine.engine"
+    },
+    "Transmission": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "transmission.transmission"
+    },
+    "Dimensions": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "dimensions.dimensions"
+    },
+    "Payload": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "payload.payload"
+    },
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
+    }
+  }
+}

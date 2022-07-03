@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_efficiency_efficiencies",
+  "info": {
+    "displayName": "Efficiency",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "fuel_grade": {
+      "type": "string"
+    },
+    "max_speed": {
+      "type": "float"
+    },
+    "overclocking": {
+      "type": "float"
+    },
+    "fuel": {
+      "type": "float"
+    }
+  }
+}

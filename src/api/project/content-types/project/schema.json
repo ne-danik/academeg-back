@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Projects"
+    "displayName": "Projects",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -65,76 +66,58 @@
       "type": "text"
     },
     "bg_preview": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
-      }
+      },
+      "type": "string"
     },
     "bg_hero": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
-      }
+      },
+      "type": "string"
     },
     "bg_spec": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
-      }
-    },
-    "slider": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
-    },
-    "gallery": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
+      },
+      "type": "string"
     },
     "hero_video": {
-      "allowedTypes": [
-        "videos"
-      ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
-      }
+      },
+      "type": "string"
+    },
+    "slider": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "text"
+    },
+    "gallery": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "text"
+    },
+    "specification": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::specification.specification",
+      "inversedBy": "project"
     }
   }
 }

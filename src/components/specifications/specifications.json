@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_specifications_specifications",
+  "info": {
+    "displayName": "Specifications",
+    "icon": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "Efficiency": {
+      "type": "component",
+      "repeatable": false,
+      "component": "efficiency.efficiency"
+    },
+    "Engine": {
+      "type": "component",
+      "repeatable": false,
+      "component": "engine.engine"
+    },
+    "Payload": {
+      "type": "component",
+      "repeatable": false,
+      "component": "payload.payload"
+    },
+    "Transmission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "transmission.transmission"
+    },
+    "Dimensions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "dimensions.dimensions"
+    }
+  }
+}
