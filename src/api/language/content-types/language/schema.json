@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "languages",
+  "info": {
+    "singularName": "language",
+    "pluralName": "languages",
+    "displayName": "language"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ru": {
+      "type": "string",
+      "default": "Ru"
+    },
+    "en": {
+      "type": "string",
+      "default": "En"
+    }
+  }
+}

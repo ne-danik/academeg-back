@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "routers",
+  "info": {
+    "singularName": "router",
+    "pluralName": "routers",
+    "displayName": "Router",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name_router": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "Route": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "route.route"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_route_routes",
+  "info": {
+    "displayName": "route",
+    "icon": "code-branch"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "external_link": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
