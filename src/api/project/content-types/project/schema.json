@@ -46,7 +46,7 @@
       },
       "type": "text"
     },
-    "video_url": {
+    "webcast": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -54,7 +54,7 @@
       },
       "type": "string"
     },
-    "video_id": {
+    "playlist_id": {
       "pluginOptions": {
         "i18n": {
           "localized": false
@@ -123,6 +123,16 @@
       "relation": "oneToOne",
       "target": "api::specification.specification",
       "inversedBy": "project"
+    },
+    "serial_num": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "biginteger",
+      "unique": false,
+      "min": "1"
     }
   }
 }
