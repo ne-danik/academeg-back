@@ -56,6 +56,15 @@
         }
       },
       "type": "string"
+    },
+    "date": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "datetime",
+      "required": true
     }
   }
 }
